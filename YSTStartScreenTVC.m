@@ -1,18 +1,18 @@
 //
-//  YSTStartScreenTableViewController.m
+//  YSTStartScreenTVC.m
 //  YogaStretchingTimer
 //
 //  Created by Abegael Jackson on 2015-07-08.
 //  Copyright (c) 2015 Abbey Jackson. All rights reserved.
 //
 
-#import "YSTStartScreenTableViewController.h"
+#import "YSTStartScreenTVC.h"
 
-@interface YSTStartScreenTableViewController ()
+@interface YSTStartScreenTVC ()
 
 @end
 
-@implementation YSTStartScreenTableViewController
+@implementation YSTStartScreenTVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

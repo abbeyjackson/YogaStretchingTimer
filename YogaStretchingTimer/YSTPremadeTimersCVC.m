@@ -1,18 +1,18 @@
 //
-//  YSTPremadeTimersCollectionViewController.m
+//  YSTPremadeTimersCVC.m
 //  YogaStretchingTimer
 //
 //  Created by Abegael Jackson on 2015-07-08.
 //  Copyright (c) 2015 Abbey Jackson. All rights reserved.
 //
 
-#import "YSTPremadeTimersCollectionViewController.h"
+#import "YSTPremadeTimersCVC.h"
 
-@interface YSTPremadeTimersCollectionViewController ()
+@interface YSTPremadeTimersCVC ()
 
 @end
 
-@implementation YSTPremadeTimersCollectionViewController
+@implementation YSTPremadeTimersCVC
 
 static NSString * const reuseIdentifier = @"Cell";
 

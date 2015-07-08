@@ -1,5 +1,5 @@
 //
-//  YSTPremadeTimersCollectionViewController.h
+//  YSTStartScreenTVCell.h
 //  YogaStretchingTimer
 //
 //  Created by Abegael Jackson on 2015-07-08.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YSTPremadeTimersCollectionViewController : UICollectionViewController
+@interface YSTStartScreenTVCell : UITableViewCell
 
 @end

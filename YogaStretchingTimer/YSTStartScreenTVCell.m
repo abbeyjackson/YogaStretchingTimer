@@ -1,14 +1,14 @@
 //
-//  YSTStartScreenTableViewCell.m
+//  YSTStartScreenTVCell.m
 //  YogaStretchingTimer
 //
 //  Created by Abegael Jackson on 2015-07-08.
 //  Copyright (c) 2015 Abbey Jackson. All rights reserved.
 //
 
-#import "YSTStartScreenTableViewCell.h"
+#import "YSTStartScreenTVCell.h"
 
-@implementation YSTStartScreenTableViewCell
+@implementation YSTStartScreenTVCell
 
 - (void)awakeFromNib {
     // Initialization code

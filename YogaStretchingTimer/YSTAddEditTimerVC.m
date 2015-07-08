@@ -1,18 +1,18 @@
 //
-//  YSTTimerViewController.m
+//  YSTAddEditTVC.m
 //  YogaStretchingTimer
 //
 //  Created by Abegael Jackson on 2015-07-08.
 //  Copyright (c) 2015 Abbey Jackson. All rights reserved.
 //
 
-#import "YSTTimerViewController.h"
+#import "YSTAddEditTimerVC.h"
 
-@interface YSTTimerViewController ()
+@interface YSTAddEditTimerVC ()
 
 @end
 
-@implementation YSTTimerViewController
+@implementation YSTAddEditTimerVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

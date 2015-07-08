@@ -13,13 +13,13 @@
 		F63EF0951B4DA78B00D00FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63EF0941B4DA78B00D00FE5 /* Images.xcassets */; };
 		F63EF0981B4DA78B00D00FE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63EF0961B4DA78B00D00FE5 /* LaunchScreen.xib */; };
 		F63EF0A41B4DA78B00D00FE5 /* YogaStretchingTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0A31B4DA78B00D00FE5 /* YogaStretchingTimerTests.m */; };
-		F63EF0AF1B4DB0F900D00FE5 /* YSTStartScreenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0AE1B4DB0F900D00FE5 /* YSTStartScreenTableViewController.m */; };
-		F63EF0B21B4DB1A100D00FE5 /* YSTTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0B11B4DB1A100D00FE5 /* YSTTimerViewController.m */; };
-		F63EF0B51B4DB1BF00D00FE5 /* YSTAddEditTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0B41B4DB1BF00D00FE5 /* YSTAddEditTimerViewController.m */; };
-		F63EF0B81B4DB1D900D00FE5 /* YSTPremadeTimersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0B71B4DB1D900D00FE5 /* YSTPremadeTimersCollectionViewController.m */; };
+		F63EF0AF1B4DB0F900D00FE5 /* YSTStartScreenTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0AE1B4DB0F900D00FE5 /* YSTStartScreenTVC.m */; };
+		F63EF0B21B4DB1A100D00FE5 /* YSTTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0B11B4DB1A100D00FE5 /* YSTTimerVC.m */; };
+		F63EF0B51B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0B41B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m */; };
+		F63EF0B81B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0B71B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m */; };
 		F63EF0BB1B4DB20300D00FE5 /* YSTTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0BA1B4DB20300D00FE5 /* YSTTimer.m */; };
-		F63EF0BE1B4DB22200D00FE5 /* YSTStartScreenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0BD1B4DB22200D00FE5 /* YSTStartScreenTableViewCell.m */; };
-		F63EF0C11B4DB23E00D00FE5 /* YSTPremadeTimerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0C01B4DB23E00D00FE5 /* YSTPremadeTimerCollectionViewCell.m */; };
+		F63EF0BE1B4DB22200D00FE5 /* YSTStartScreenTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0BD1B4DB22200D00FE5 /* YSTStartScreenTVCell.m */; };
+		F63EF0C11B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0C01B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,20 +44,20 @@
 		F63EF09D1B4DA78B00D00FE5 /* YogaStretchingTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaStretchingTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63EF0A21B4DA78B00D00FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F63EF0A31B4DA78B00D00FE5 /* YogaStretchingTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YogaStretchingTimerTests.m; sourceTree = "<group>"; };
-		F63EF0AD1B4DB0F900D00FE5 /* YSTStartScreenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTStartScreenTableViewController.h; sourceTree = SOURCE_ROOT; };
-		F63EF0AE1B4DB0F900D00FE5 /* YSTStartScreenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTStartScreenTableViewController.m; sourceTree = SOURCE_ROOT; };
-		F63EF0B01B4DB1A100D00FE5 /* YSTTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTTimerViewController.h; sourceTree = "<group>"; };
-		F63EF0B11B4DB1A100D00FE5 /* YSTTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTTimerViewController.m; sourceTree = "<group>"; };
-		F63EF0B31B4DB1BF00D00FE5 /* YSTAddEditTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTAddEditTimerViewController.h; sourceTree = "<group>"; };
-		F63EF0B41B4DB1BF00D00FE5 /* YSTAddEditTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTAddEditTimerViewController.m; sourceTree = "<group>"; };
-		F63EF0B61B4DB1D900D00FE5 /* YSTPremadeTimersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTPremadeTimersCollectionViewController.h; sourceTree = "<group>"; };
-		F63EF0B71B4DB1D900D00FE5 /* YSTPremadeTimersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTPremadeTimersCollectionViewController.m; sourceTree = "<group>"; };
+		F63EF0AD1B4DB0F900D00FE5 /* YSTStartScreenTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTStartScreenTVC.h; sourceTree = SOURCE_ROOT; };
+		F63EF0AE1B4DB0F900D00FE5 /* YSTStartScreenTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTStartScreenTVC.m; sourceTree = SOURCE_ROOT; };
+		F63EF0B01B4DB1A100D00FE5 /* YSTTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTTimerVC.h; sourceTree = "<group>"; };
+		F63EF0B11B4DB1A100D00FE5 /* YSTTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTTimerVC.m; sourceTree = "<group>"; };
+		F63EF0B31B4DB1BF00D00FE5 /* YSTAddEditTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTAddEditTimerVC.h; sourceTree = "<group>"; };
+		F63EF0B41B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTAddEditTimerVC.m; sourceTree = "<group>"; };
+		F63EF0B61B4DB1D900D00FE5 /* YSTPremadeTimersCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTPremadeTimersCVC.h; sourceTree = "<group>"; };
+		F63EF0B71B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTPremadeTimersCVC.m; sourceTree = "<group>"; };
 		F63EF0B91B4DB20300D00FE5 /* YSTTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTTimer.h; sourceTree = "<group>"; };
 		F63EF0BA1B4DB20300D00FE5 /* YSTTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTTimer.m; sourceTree = "<group>"; };
-		F63EF0BC1B4DB22200D00FE5 /* YSTStartScreenTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTStartScreenTableViewCell.h; sourceTree = "<group>"; };
-		F63EF0BD1B4DB22200D00FE5 /* YSTStartScreenTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTStartScreenTableViewCell.m; sourceTree = "<group>"; };
-		F63EF0BF1B4DB23E00D00FE5 /* YSTPremadeTimerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTPremadeTimerCollectionViewCell.h; sourceTree = "<group>"; };
-		F63EF0C01B4DB23E00D00FE5 /* YSTPremadeTimerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTPremadeTimerCollectionViewCell.m; sourceTree = "<group>"; };
+		F63EF0BC1B4DB22200D00FE5 /* YSTStartScreenTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTStartScreenTVCell.h; sourceTree = "<group>"; };
+		F63EF0BD1B4DB22200D00FE5 /* YSTStartScreenTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTStartScreenTVCell.m; sourceTree = "<group>"; };
+		F63EF0BF1B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTPremadeTimerCVCell.h; sourceTree = "<group>"; };
+		F63EF0C01B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTPremadeTimerCVCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,10 +138,10 @@
 		F63EF0C21B4DB24D00D00FE5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F63EF0BC1B4DB22200D00FE5 /* YSTStartScreenTableViewCell.h */,
-				F63EF0BD1B4DB22200D00FE5 /* YSTStartScreenTableViewCell.m */,
-				F63EF0BF1B4DB23E00D00FE5 /* YSTPremadeTimerCollectionViewCell.h */,
-				F63EF0C01B4DB23E00D00FE5 /* YSTPremadeTimerCollectionViewCell.m */,
+				F63EF0BC1B4DB22200D00FE5 /* YSTStartScreenTVCell.h */,
+				F63EF0BD1B4DB22200D00FE5 /* YSTStartScreenTVCell.m */,
+				F63EF0BF1B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.h */,
+				F63EF0C01B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -160,14 +160,14 @@
 		F63EF0C41B4DB28D00D00FE5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F63EF0AD1B4DB0F900D00FE5 /* YSTStartScreenTableViewController.h */,
-				F63EF0AE1B4DB0F900D00FE5 /* YSTStartScreenTableViewController.m */,
-				F63EF0B01B4DB1A100D00FE5 /* YSTTimerViewController.h */,
-				F63EF0B11B4DB1A100D00FE5 /* YSTTimerViewController.m */,
-				F63EF0B31B4DB1BF00D00FE5 /* YSTAddEditTimerViewController.h */,
-				F63EF0B41B4DB1BF00D00FE5 /* YSTAddEditTimerViewController.m */,
-				F63EF0B61B4DB1D900D00FE5 /* YSTPremadeTimersCollectionViewController.h */,
-				F63EF0B71B4DB1D900D00FE5 /* YSTPremadeTimersCollectionViewController.m */,
+				F63EF0AD1B4DB0F900D00FE5 /* YSTStartScreenTVC.h */,
+				F63EF0AE1B4DB0F900D00FE5 /* YSTStartScreenTVC.m */,
+				F63EF0B01B4DB1A100D00FE5 /* YSTTimerVC.h */,
+				F63EF0B11B4DB1A100D00FE5 /* YSTTimerVC.m */,
+				F63EF0B31B4DB1BF00D00FE5 /* YSTAddEditTimerVC.h */,
+				F63EF0B41B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m */,
+				F63EF0B61B4DB1D900D00FE5 /* YSTPremadeTimersCVC.h */,
+				F63EF0B71B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -289,15 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63EF0AF1B4DB0F900D00FE5 /* YSTStartScreenTableViewController.m in Sources */,
-				F63EF0BE1B4DB22200D00FE5 /* YSTStartScreenTableViewCell.m in Sources */,
-				F63EF0B51B4DB1BF00D00FE5 /* YSTAddEditTimerViewController.m in Sources */,
-				F63EF0B81B4DB1D900D00FE5 /* YSTPremadeTimersCollectionViewController.m in Sources */,
+				F63EF0AF1B4DB0F900D00FE5 /* YSTStartScreenTVC.m in Sources */,
+				F63EF0BE1B4DB22200D00FE5 /* YSTStartScreenTVCell.m in Sources */,
+				F63EF0B51B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m in Sources */,
+				F63EF0B81B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m in Sources */,
 				F63EF08D1B4DA78B00D00FE5 /* AppDelegate.m in Sources */,
-				F63EF0C11B4DB23E00D00FE5 /* YSTPremadeTimerCollectionViewCell.m in Sources */,
+				F63EF0C11B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.m in Sources */,
 				F63EF0BB1B4DB20300D00FE5 /* YSTTimer.m in Sources */,
 				F63EF08A1B4DA78B00D00FE5 /* main.m in Sources */,
-				F63EF0B21B4DB1A100D00FE5 /* YSTTimerViewController.m in Sources */,
+				F63EF0B21B4DB1A100D00FE5 /* YSTTimerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

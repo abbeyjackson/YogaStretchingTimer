@@ -10,4 +10,8 @@
 
 @interface YSTTimer : NSObject
 
+
+
+
+
 @end

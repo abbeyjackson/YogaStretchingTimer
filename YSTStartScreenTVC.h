@@ -1,5 +1,5 @@
 //
-//  YSTStartScreenTableViewCell.h
+//  YSTStartScreenTableViewController.h
 //  YogaStretchingTimer
 //
 //  Created by Abegael Jackson on 2015-07-08.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YSTStartScreenTableViewCell : UITableViewCell
+@interface YSTStartScreenTVC : UITableViewController
 
 @end
