@@ -15,11 +15,11 @@
 		F63EF0A41B4DA78B00D00FE5 /* YogaStretchingTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0A31B4DA78B00D00FE5 /* YogaStretchingTimerTests.m */; };
 		F63EF0AF1B4DB0F900D00FE5 /* YSTStartScreenTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0AE1B4DB0F900D00FE5 /* YSTStartScreenTVC.m */; };
 		F63EF0B21B4DB1A100D00FE5 /* YSTTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0B11B4DB1A100D00FE5 /* YSTTimerVC.m */; };
-		F63EF0B51B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0B41B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m */; };
 		F63EF0B81B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0B71B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m */; };
 		F63EF0BB1B4DB20300D00FE5 /* YSTTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0BA1B4DB20300D00FE5 /* YSTTimer.m */; };
 		F63EF0BE1B4DB22200D00FE5 /* YSTStartScreenTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0BD1B4DB22200D00FE5 /* YSTStartScreenTVCell.m */; };
 		F63EF0C11B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0C01B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.m */; };
+		F63EF0CC1B4E17CF00D00FE5 /* YSTAddEditTimerTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F63EF0CB1B4E17CF00D00FE5 /* YSTAddEditTimerTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +48,6 @@
 		F63EF0AE1B4DB0F900D00FE5 /* YSTStartScreenTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTStartScreenTVC.m; sourceTree = SOURCE_ROOT; };
 		F63EF0B01B4DB1A100D00FE5 /* YSTTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTTimerVC.h; sourceTree = "<group>"; };
 		F63EF0B11B4DB1A100D00FE5 /* YSTTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTTimerVC.m; sourceTree = "<group>"; };
-		F63EF0B31B4DB1BF00D00FE5 /* YSTAddEditTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTAddEditTimerVC.h; sourceTree = "<group>"; };
-		F63EF0B41B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTAddEditTimerVC.m; sourceTree = "<group>"; };
 		F63EF0B61B4DB1D900D00FE5 /* YSTPremadeTimersCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTPremadeTimersCVC.h; sourceTree = "<group>"; };
 		F63EF0B71B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTPremadeTimersCVC.m; sourceTree = "<group>"; };
 		F63EF0B91B4DB20300D00FE5 /* YSTTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTTimer.h; sourceTree = "<group>"; };
@@ -58,6 +56,8 @@
 		F63EF0BD1B4DB22200D00FE5 /* YSTStartScreenTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTStartScreenTVCell.m; sourceTree = "<group>"; };
 		F63EF0BF1B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTPremadeTimerCVCell.h; sourceTree = "<group>"; };
 		F63EF0C01B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTPremadeTimerCVCell.m; sourceTree = "<group>"; };
+		F63EF0CA1B4E17CF00D00FE5 /* YSTAddEditTimerTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTAddEditTimerTVC.h; sourceTree = "<group>"; };
+		F63EF0CB1B4E17CF00D00FE5 /* YSTAddEditTimerTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTAddEditTimerTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,10 +164,10 @@
 				F63EF0AE1B4DB0F900D00FE5 /* YSTStartScreenTVC.m */,
 				F63EF0B01B4DB1A100D00FE5 /* YSTTimerVC.h */,
 				F63EF0B11B4DB1A100D00FE5 /* YSTTimerVC.m */,
-				F63EF0B31B4DB1BF00D00FE5 /* YSTAddEditTimerVC.h */,
-				F63EF0B41B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m */,
 				F63EF0B61B4DB1D900D00FE5 /* YSTPremadeTimersCVC.h */,
 				F63EF0B71B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m */,
+				F63EF0CA1B4E17CF00D00FE5 /* YSTAddEditTimerTVC.h */,
+				F63EF0CB1B4E17CF00D00FE5 /* YSTAddEditTimerTVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -289,9 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63EF0CC1B4E17CF00D00FE5 /* YSTAddEditTimerTVC.m in Sources */,
 				F63EF0AF1B4DB0F900D00FE5 /* YSTStartScreenTVC.m in Sources */,
 				F63EF0BE1B4DB22200D00FE5 /* YSTStartScreenTVCell.m in Sources */,
-				F63EF0B51B4DB1BF00D00FE5 /* YSTAddEditTimerVC.m in Sources */,
 				F63EF0B81B4DB1D900D00FE5 /* YSTPremadeTimersCVC.m in Sources */,
 				F63EF08D1B4DA78B00D00FE5 /* AppDelegate.m in Sources */,
 				F63EF0C11B4DB23E00D00FE5 /* YSTPremadeTimerCVCell.m in Sources */,

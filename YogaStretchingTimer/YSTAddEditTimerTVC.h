@@ -1,5 +1,5 @@
 //
-//  YSTAddEditTVC.h
+//  YSTAddEditTimerTVC.h
 //  YogaStretchingTimer
 //
 //  Created by Abegael Jackson on 2015-07-08.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YSTAddEditTimerVC : UIViewController
+@interface YSTAddEditTimerTVC : UITableViewController
 
 @end
